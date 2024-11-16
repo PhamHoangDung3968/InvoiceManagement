@@ -1,0 +1,31 @@
+.xuongdong{
+    display: flex;
+    flex-direction: column;
+}
+.btn-default1{
+    width: 33%;
+    margin-top: 16px;
+    border: 2px solid grey;
+}
+.keben{
+    display: flex;
+    column-gap: 16px;
+}
+@media (max-width: 400px){
+    .keben{
+        display: block;
+        margin-top: 16px;
+    }
+    .btn-default1{
+        margin-left: 4px;
+    }
+    #edit_margin{
+        margin: 8px 8px;
+    }
+    .keben1{
+        display: flex;
+    }
+    #edit_flex{
+        width: 70%;
+    }
+}
